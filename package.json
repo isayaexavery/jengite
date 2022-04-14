@@ -1,0 +1,23 @@
+{
+  "name": "sakiti",
+  "version": "1.0.0",
+  "description": "Jengite - Employee and Employers table",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Isaya",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1101.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "node-localstorage": "^2.2.1",
+    "nodemailer": "^6.7.3",
+    "tiny-editor": "^0.3.0",
+    "uuid": "^8.3.2"
+  }
+}
